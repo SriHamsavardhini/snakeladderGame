@@ -1,0 +1,33 @@
+
+.gridclass{
+    float: left;
+    text-align: center;
+    display: grid;
+    grid-template: repeat(10,75px) / repeat(10,75px) ;
+    font-size: 5px;
+    min-width: 100vh;
+    min-height: auto;
+    margin: 10px;
+}
+#btn{
+    font-weight: bold;
+    font-size: 20px;
+    padding:17px;
+   width: 150px;
+   height: 50px;
+   color: aliceblue;
+   background-color: purple;
+}
+
+#btn:hover{
+    background-color: white;
+    color:purple;
+}
+.score{
+    float: right;
+
+    height: 200px;
+    width: 300px;
+    background-image:linear-gradient(purple,yellow,blue,orange ) ;
+    margin-right: 50px;
+}
